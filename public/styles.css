@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia;
+    background-color: darkslategrey;
+    color: burlywood;
+}
+
+a {
+    color:burlywood;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span {
+    border: solid 2px burlywood;
+    width:100px;
+    height:100px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: xx-large;   
+}
