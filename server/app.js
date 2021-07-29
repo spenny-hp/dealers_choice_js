@@ -18,7 +18,10 @@ app.get("/", (req, res) => {
         </head>
         <body>
             <div id='header'>
-                <h1>Dealer's Choice! Choose an item to find out more</h1>
+                <h1>NYC Water Consumption!</h1> \n
+            </div>
+            <div>
+            <h2>Choose a year to find out more</h2>
             </div>
             <div id='items'>
                 
@@ -59,6 +62,7 @@ app.get("/year/:yr", (req, res) => {
               "NYC Consumption(Million gallons per day)"
             ].toLocaleString("en-US")} million gallons per day
             </p>
+            <a href=../../><button>Return Home</button></a>
           </body>
       </html>
       `;
